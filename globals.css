@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --bg2: #f7f7f7;
+  --bg3: #ededed;
+  --surface: rgba(0, 0, 0, 0.03);
+  --border: rgba(0, 0, 0, 0.08);
+  --border-accent: rgba(0, 0, 0, 0.25);
+  --text-primary: #0a0a0a;
+  --text-secondary: #555555;
+  --text-muted: #999999;
+  --accent: #000000;
+  --accent2: #333333;
+  --accent3: #666666;
+  --accent-glow: rgba(0, 0, 0, 0.04);
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+html, body {
+  background: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+body {
+  overflow-x: hidden;
+  cursor: none;
+}
+
+section {
+  background: inherit;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: #fff; }
+::-webkit-scrollbar-thumb { background: #000; }
+
+a, button, input, textarea, select { cursor: none; }
